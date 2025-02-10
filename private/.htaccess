@@ -1,1 +1,5 @@
-Deny from all
+# Blocca l'accesso diretto ai file .php nella cartella private
+<Files "*.php">
+    Order Deny,Allow
+    Deny from all
+</Files>

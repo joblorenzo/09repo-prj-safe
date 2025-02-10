@@ -6,6 +6,10 @@
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="../assets/style.css">
 
+    <!-- Includi il JavaScript di Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Simple client-side redirect as a demonstration
